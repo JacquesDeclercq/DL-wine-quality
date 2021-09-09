@@ -45,7 +45,6 @@ import EarlyStopping()
 
 <img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/Screenshot%202021-09-09%20at%2015.32.49.png" width="450">
 
-Heatmap
 <img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/heatmap.png" width="450">
 
 2. Base Deep Learning Model :
@@ -73,6 +72,11 @@ loss: 0.2524
 accuracy: 0.5464
 val_accuracy: 0.5252
 
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/conf_base_model.png" width="350">
+
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/conf2_base_model.png" width="350">
+
+
 ### Base Model with different loss parameter (categorical_crossentropy)
 
 ```python
@@ -99,7 +103,15 @@ Scores :
 loss: loss: 0.00
 accuracy: 0.4895
 val_accuracy: 0.5148
+
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/conf_cross_base_model.png" width="350">
+
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/conf_cross_base2_model.png" width="350">
 ##
+
+### Comparing Both Models' Losses
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/compare_base_model.png" width="350">
+
 
 ## Model with Standardized Data
 ```python
@@ -119,6 +131,7 @@ Total params: 1,242
 Trainable params: 1,202
 Non-trainable params: 40
 ```
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/models_conf.png" width="350">
 
 Scores : 
 loss: 0.2524
@@ -144,6 +157,9 @@ Total params: 1,201
 Trainable params: 1,161
 Non-trainable params: 40
 ```
+## Standardized Model Comparison :
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/plot_comparison.png" width="350">
+
 Scores : 
 loss: 0.1012
 accuracy: 0.8769
@@ -153,13 +169,21 @@ val_accuracy: 0.8265
 RandomForest : TEST ACCURACY SCORE : 0.80058 %
 TRAIN ACCURACY SCORE : 0.81578 %
 
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/importance.png" width="350">
+
 Decision Tree :
 Tuned Decision Tree Parameters: {'criterion': 'entropy', 'max_depth': None, 'max_features': 8, 'min_samples_leaf': 6}
 Best score is 0.8391742239744602
 
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/confdec.png" width="350">
+
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/confdec2.png" width="350">
+
 Logistic Regression : ROC AUC = 0.801
 AUC scores computed using 5-fold cross-validation: [0.78847069 0.84290438 0.7993698  0.74866219 0.67036768] 0.8012114702596516
 AUC: 0.8012114702596516
+
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/conflog.png" width="350">
 
 KNN Neighbours : Test Accuracy Score : 0.79
 Training Accuracy Score : 0.82
