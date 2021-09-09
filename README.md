@@ -1,6 +1,6 @@
 # DL-wine-quality
 
-Foobar is a Python library for dealing with word pluralization.
+Mind the Red Theme : Wines
 
 ## The Mission
 Wine tasting has been around since the creation of wine itself. However, in the modern era, more importance has been given to drinking a good wine, e.g. a French Bordeaux. France has always been hailed as the land of the wine. However, during the Judgment of Paris in 1976, a Californian wine scored better than a French wine which led to the increase in popularity of Californian wine.
