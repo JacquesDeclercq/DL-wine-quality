@@ -31,7 +31,9 @@ pip install sci-kit learn
 ```python
 import tensorflow as tf
 from tensorflow import keras
+from sklearn import preprocessing
 import EarlyStopping()
+import itertools
 
 # Make sure to follow the TensorFlow Keras Documentation for a valid installation)
 ```
