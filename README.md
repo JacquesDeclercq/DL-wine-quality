@@ -158,7 +158,7 @@ Trainable params: 1,161
 Non-trainable params: 40
 ```
 ## Standardized Model Comparison :
-<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/plot_comparison.png" width="350">
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/Screenshot%202021-09-09%20at%2015.47.24.png" width="350">
 
 Scores : 
 loss: 0.1012
@@ -188,6 +188,7 @@ AUC: 0.8012114702596516
 KNN Neighbours : Test Accuracy Score : 0.79
 Training Accuracy Score : 0.82
 ##
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/Screenshot%202021-09-09%20at%2015.48.38.png" width="350">
 
 ## Last Words
 
