@@ -1,7 +1,5 @@
 # DL-wine-quality
 
-Foobar is a Python library for dealing with word pluralization.
-
 ## Mission objectives
 Use a deep learning library.
 Prepare a data set for a machine learning model.
