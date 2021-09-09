@@ -41,6 +41,10 @@ import EarlyStopping()
 
 1.1 Plots & Heatmap OG Data
 
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/Screenshot%202021-09-09%20at%2014.35.33.png" width="450">
+
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/Screenshot%202021-09-09%20at%2015.32.49.png" width="450">
+
 2. Base Deep Learning Model :
 ```python
 
@@ -154,7 +158,13 @@ Logistic Regression : ROC AUC = 0.801
 AUC scores computed using 5-fold cross-validation: [0.78847069 0.84290438 0.7993698  0.74866219 0.67036768] 0.8012114702596516
 AUC: 0.8012114702596516
 
-KNN Neighbours
+KNN Neighbours : Test Accuracy Score : 0.79
+Training Accuracy Score : 0.82
+##
+
+## Last Words
+
+Fun project, discovering how to build, fit and the parameters of a deep learning model. As it has been said ; 'Use the tools in your belt wisely. This case was best handled by the RandomForestClassifier.
 
 ##
 
