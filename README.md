@@ -171,13 +171,14 @@ Total params: 1,201
 Trainable params: 1,161
 Non-trainable params: 40
 ```
-## Standardized Model Comparison :
-<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/Screenshot%202021-09-09%20at%2015.47.24.png" width="350">
-
 Scores : 
 loss: 0.1012
 accuracy: 0.8769
 val_accuracy: 0.8265
+
+## Standardized Model Comparison :
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/Screenshot%202021-09-09%20at%2015.47.24.png" width="350">
+
 
 ## Different Classifiers
 RandomForest : TEST ACCURACY SCORE : 0.80058 %
