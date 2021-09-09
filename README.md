@@ -122,6 +122,13 @@ val_accuracy: 0.5148
 
 ## Model with Standardized Data
 ```python
+Adam(lr=0.003)
+# Compile the model
+models.compile(optimizer = adam, loss = 'mean_squared_error',
+metrics=['accuracy'])
+models.fit(X_train_s, y_train,validation_split = 0.3,validation_data=(X_test_s, y_test),
+           batch_size=2048, epochs = 200, callbacks = [early_stopping_monitor])
+           
 Model: "sequential_33"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
