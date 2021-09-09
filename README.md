@@ -51,6 +51,11 @@ import itertools
 
 2. Base Deep Learning Model :
 ```python
+Adam(lr=0.003)
+model.compile(optimizer = adam, loss = 'mean_squared_error',
+metrics=['accuracy'])
+model.fit(X_train, y_train,validation_split = 0.3,validation_data=(X_test, y_test),
+           batch_size=2048, epochs = 200, callbacks = [early_stopping_monitor])
 
 Model: "sequential_27"
 _________________________________________________________________
