@@ -45,6 +45,9 @@ import EarlyStopping()
 
 <img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/Screenshot%202021-09-09%20at%2015.32.49.png" width="450">
 
+Heatmap
+<img src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/heatmap.png" width="450">
+
 2. Base Deep Learning Model :
 ```python
 
