@@ -1,5 +1,7 @@
 # DL-wine-quality
 
+Foobar is a Python library for dealing with word pluralization.
+
 ## The Mission
 Wine tasting has been around since the creation of wine itself. However, in the modern era, more importance has been given to drinking a good wine, e.g. a French Bordeaux. France has always been hailed as the land of the wine. However, during the Judgment of Paris in 1976, a Californian wine scored better than a French wine which led to the increase in popularity of Californian wine.
 
@@ -192,7 +194,12 @@ Training Accuracy Score : 0.82
 
 Fun project, discovering how to build, fit and the parameters of a deep learning model. As it has been said ; 'Use the tools in your belt wisely. This case was best handled by the RandomForestClassifier.
 
-##
+## Follow Me
+<a href="https://twitter.com/96Nichino" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/twitter.png" width="30"></a>
+<a href="https://github.com/JacquesDeclercq" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/github.png" width="30"></a>
+<a href="https://www.linkedin.com/in/bhattbhavesh91/" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/JacquesDeclercq/DL-wine-quality/blob/main/images/linkedin.png" width="30"></a>
+
+<h3 align="center">Show your support by starring the repository 🙂</h3>
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
